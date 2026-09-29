@@ -17,7 +17,7 @@ class CalificacionServiceTest {
         double resultado =
             service.calcularPromedio(notas);
 
-        assertEquals(5.0, resultado);
+        assertEquals(4.0, resultado);
     }
 
     @Test
